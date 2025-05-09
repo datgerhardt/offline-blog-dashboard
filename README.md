@@ -47,8 +47,8 @@ I chose Dexie.js, a wrapper around IndexedDB, because it offers a simplified pro
 - [ ] Sync data automatically when connectivity is restored.
 
 ### ✍️ Post & Comment Creation
-- [] Allow users to create/edit posts and comments.
-- [] Offline-created entries must be marked and synced later.
+- [ ] Allow users to create/edit posts and comments.
+- [ ] Offline-created entries must be marked and synced later.
 There are done as service and not add to ui
 
 ### 🔍 Search & Filter
