@@ -1,0 +1,10 @@
+<mat-list>
+    <h2 mat-subheader>Posts</h2>
+       <mat-list-item *ngFor ="let user of usersList$ | async;">
+          <!-- <mat-icon mat-list-icon>folder</mat-icon> -->
+          <h3 mat-line class="demo">{{user.name}}</h3>
+          <p mat-line class=""> {{user.username}} </p>
+
+       </mat-list-item>
+  
+ </mat-list>

@@ -1,0 +1,11 @@
+<ul role="list" class="divide-y divide-gray-100">
+    <li class="flex justify-between gap-x-6 py-5" *ngFor="let post of postList$ | async;" (click)="gotoPost(post)">
+        <div class="flex min-w-0 gap-x-4">
+            <div class="min-w-0 flex-auto">
+                <p class="text-sm/6 font-semibold text-gray-900">{{post.title}}</p>
+                <p class="mt-1 truncate text-xs/5 text-gray-500">{{post.body | slice:0:100}}</p>
+            </div>
+        </div>
+    </li>
+
+</ul>
